@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+body {
+    background-image: url(https://res.cloudinary.com/duxhiuugx/image/upload/v1683388596/fitness-1024x683_rrj8l4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* NAVBAR */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.main-links .links {
+    color: #E5F513;
+    text-decoration: none;
+}
+
+.inicio {
+    background-color: #E5F513;
+    text-align: center;
+}
+.inicio .links {
+    color: black;
+}
+
+.main-links li {
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-li {
+    position: relative;
+}
+
+.dropdown .links {
+    color: black;
+
+}
+
+.dropdown-li:hover .dropdown {
+    background-color: white;
+    width: 200%;
+    box-shadow: 10px 5px 5px black;
+    display: block;
+    opacity: 1;
+}
+.dropdown-li:hover .dropdowns {
+    background-color: white;
+    display: block;
+    opacity: 1;
+}
+
+.dropdown li:hover{
+    box-shadow: 10px 5px 5px black;
+}
+
+.dropdown {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    display: none;
+}
+  
+.dropdown li {
+    list-style: none;
+}
+
+.dropdowns {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    display: none;
+}
+  
+.dropdowns li {
+    list-style: none;
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+
+.icons svg {
+    margin-top: -1.3rem;
+    width: 2rem;
+    height: 4rem;
+}
+
+.icons .dropdowns {
+    margin-top: -1rem;
+    margin-left: -8rem;
+    width: 470%;
+    height: 5rem;
+    border: solid 1px white;
+    background-color: white;
+    box-shadow: 10px 5px 5px black;
+}
+
+.icons .dropdowns li:hover {
+    box-shadow: 10px 5px 5px black;
+
+}
+
+/* MAIN */
+
+.main {
+    border: solid 1px white;
+    padding: 0.2rem;
+}
+
+.home-main {
+    padding: 0.2rem;
+    border: solid 1px white;
+    display: flex;
+}
+
+.main-first {
+    border: solid 1px white;
+    font-family: 'Bruno Ace SC', cursive;
+    background-color: rgba(255, 255, 255, 0.144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+.main-first h2 {
+    font-size: 2rem;
+}
+.main-first h3 {
+    font-family: 'Vina Sans', cursive;
+    margin-top: -1rem;
+    font-size: 1.5rem;
+}
+.main-first a {
+    border-bottom: solid 1px #E5F513;
+    border-top: solid 1px white;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+.main-first a:hover {
+    color: #E5F513;
+    background-color: #e6f51334;
+}
+
+.main-second {
+    border: solid 1px white;
+    padding: 0.2rem;
+}
+
+.main-card {
+    border: solid 1px white;
+}
+
+.main-social {
+    border: solid 1px white;
+}
+
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #008bf8;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
