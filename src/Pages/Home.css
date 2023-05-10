@@ -33,6 +33,7 @@ body {
 .inicio {
     background-color: #E5F513;
     text-align: center;
+    height: 1rem;
 }
 .inicio .links {
     color: black;
