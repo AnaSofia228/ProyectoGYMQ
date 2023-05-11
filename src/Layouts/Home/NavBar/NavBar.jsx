@@ -17,7 +17,7 @@ export const NavBar = () => {
                         <li><Link className='links'>Pierna</Link></li>
                     </ul>
                 </li>
-                <li className='dropdown-li'><Link className='links'>Tienda</Link>
+                <li className='dropdown-li'><Link className='links' to='/Store'>Tienda</Link>
                     <ul className='dropdown'>
                         <li><Link className='links'>Accesorios</Link></li>                      
                         <li><Link className='links'>Energizantes</Link></li>                      

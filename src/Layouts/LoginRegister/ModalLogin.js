@@ -29,7 +29,7 @@ const Overlay = styled.div`
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .5)
+    background: rgba(154, 153, 153, 0.49);
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ const Overlay = styled.div`
 const ContenedorModal = styled.div`
     width: 500px;
     height: 30rem;
-    background: #fff;
+    background: #000;
     position: relative;
     border-radius: 5px;
     box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
@@ -66,5 +66,6 @@ const BotonCerrar = styled.button`
     svg {
         width: 100%;
         height: 100%;
+        margin-top: 0.1rem;
     }
 `;

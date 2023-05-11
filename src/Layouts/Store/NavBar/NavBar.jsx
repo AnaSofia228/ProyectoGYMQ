@@ -9,7 +9,7 @@ export const NavBar = () => {
         z
         <nav className='nav'>
             <ul className='main-links'>
-                <li><Link className='links'>Inicio</Link></li>
+                <li><Link className='links' to='/Home'>Inicio</Link></li>
                 <li className='dropdown-li'><Link className='links'>Rutinas</Link>
                     <ul className='dropdown'>
                         <li><Link className='links'>Brazo</Link></li>

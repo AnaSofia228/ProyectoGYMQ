@@ -7,8 +7,6 @@ export function Store() {
         <div className="nav-bar">
             <NavBar/>
         </div>
-        <div className="main-store">
-            <Main/>
-        </div>
+        <Main/>
     </div>
 }

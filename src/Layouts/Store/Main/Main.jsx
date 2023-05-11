@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { MainCards } from './MainCards'
+import { Cards } from './Cards'
 
 export const Main = () => {
   return (
@@ -10,8 +10,19 @@ export const Main = () => {
             <Link className='link'>Energizantes</Link>
             <Link className='link'>Ropa</Link>
         </div>
-        <div className='cards'>
-            <MainCards/>
+        <div className='store-cards'>
+          <div className='cards'>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+          </div>
+          <div className='cards'>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+          </div>
         </div>
     </div>
   )

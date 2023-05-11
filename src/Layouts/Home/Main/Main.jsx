@@ -1,5 +1,5 @@
 import React from 'react'
-import Cuenta from '../../LoginRegister/Cuenta'
+import { Button } from '../../../Ui/Button/Button'
 
 export const Main = () => {
   return (
@@ -9,7 +9,7 @@ export const Main = () => {
             <h3>con</h3>
             <h2>GYM<font color='#E5F513'>Q</font></h2>
             <h3>entrenamiento fisico</h3>
-            <a className='linkCuenta'><Cuenta/></a>
+            <a href=""><Button /></a>
         </div>
             <div className='main-social'>
                 <div className='card'>
