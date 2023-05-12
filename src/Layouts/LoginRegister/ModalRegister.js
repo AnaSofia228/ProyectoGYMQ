@@ -33,7 +33,7 @@ const Overlay = styled.div`
     padding: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 `;
 
 const ContenedorModal = styled.div`

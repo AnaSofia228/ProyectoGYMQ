@@ -35,7 +35,7 @@ const Ingresar = () => {
                                 Iniciar Sesion
                             </a>
                         </form>
-                        <p>¿Aún no tienes cuenta? <a className="a2">Registrarse</a></p>
+                        <p>¿Aún no tienes cuenta? <Ancla className="a2">Registrarse</Ancla></p>
                     </div>
                 </Contenido>
             </ModalLogin>
@@ -60,7 +60,7 @@ const Contenido = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Bruno Ace SC', cursive;u
 	.login-box {
         position: absolute;
         top: 50%;
@@ -230,12 +230,12 @@ const Contenido = styled.div`
         font-size: 14px;
       }
       
-      .login-box a.a2 {
+      .login-box .a2 {
         color: #fff;
         text-decoration: none;
       }
       
-      .login-box a.a2:hover {
+      .login-box .a2:hover {
         background: transparent;
         color: #aaa;
         border-radius: 5px;

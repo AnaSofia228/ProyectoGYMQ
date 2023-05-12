@@ -38,7 +38,7 @@ const Overlay = styled.div`
 
 const ContenedorModal = styled.div`
     width: 500px;
-    height: 30rem;
+    height: 20rem;
     background: #000;
     position: relative;
     border-radius: 5px;
@@ -57,7 +57,7 @@ const BotonCerrar = styled.button`
     cursor: pointer;
     transition: .3 ease all;
     border-radius: 5px;
-    color: #1766DC;
+    color: #1766DC; 
 
     &:hover {
         background: #f2f2f2;

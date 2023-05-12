@@ -1,4 +1,3 @@
-import { Main } from "../Layouts/Store/Main/Main"
 import { NavBar } from "../Layouts/Store/NavBar/NavBar"
 import './Store.css'
 
@@ -7,6 +6,5 @@ export function Store() {
         <div className="nav-bar">
             <NavBar/>
         </div>
-        <Main/>
     </div>
 }
