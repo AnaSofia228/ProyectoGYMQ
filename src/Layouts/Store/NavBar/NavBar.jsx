@@ -6,7 +6,6 @@ import Ingresar from '../../LoginRegister/Ingresar'
 export const NavBar = () => {
   return (
     <div>
-        z
         <nav className='nav'>
             <ul className='main-links'>
                 <li><Link className='links' to='/Home'>Inicio</Link></li>

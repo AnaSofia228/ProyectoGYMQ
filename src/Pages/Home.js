@@ -1,6 +1,6 @@
 import { Main } from '../Layouts/Home/Main/Main'
 import { NavBar } from '../Layouts/Home/NavBar/NavBar'
-import './Home.css'
+import './App.css'
 
 export function Homes() {
     return <div className="home">
